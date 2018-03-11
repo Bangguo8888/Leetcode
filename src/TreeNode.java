@@ -5,8 +5,8 @@ public class TreeNode {
     Integer key;
     TreeNode left;
     TreeNode right;
-    public TreeNode(){
-        key = 0;
+    public TreeNode(int val){
+        key = val;
         left = null;
         right = null;
     }
