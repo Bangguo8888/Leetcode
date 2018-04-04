@@ -14,7 +14,7 @@ public class WordLadder {
         }
         Set<String> visited = new HashSet<>();
         Set<String> wordSet = new HashSet<>(wordList);
-        Queue<String> queue = new LinkedList<String>();
+        Queue<String> queue = new LinkedList<>();
         queue.offer(beginWord);
         visited.add(beginWord);
         while (!queue.isEmpty()) {
